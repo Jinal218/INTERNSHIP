@@ -9,11 +9,8 @@
         body{
                 font-family: Roboto;
                 background: #190276;
-                /* fallback for old browsers */
                 background: -webkit-linear-gradient(to left, #3c04c8, #1F1C18);
-                /* Chrome 10-25, Safari 5.1-6 */
                 background: linear-gradient(to left, #3c04c8, #1F1C18);
-                /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
             }
 
 #container {
@@ -148,7 +145,6 @@ button:active {
         <h1>Tip Calculator</h1>
         <div id="calculator">
       
-      
           <form>
             <p>How much was your bill?
               <p>
@@ -194,7 +190,7 @@ button:active {
     alert("Please enter values");
     return;
   }
-  //Check to see if this input is empty or less than or equal to 1
+
   if (numOfPeople === "" || numOfPeople <= 1) {
     numOfPeople = 1;
     document.getElementById("each").style.display = "none";
@@ -204,9 +200,7 @@ button:active {
 
   //Calculate tip
   var total = (billAmt * serviceQual) / numOfPeople;
-  //round to two decimal places
   total = Math.round(total * 100) / 100;
-  //next line allows us to always have two digits after decimal point
   total = total.toFixed(2);
   //Display the tip
   document.getElementById("totalTip").style.display = "block";
