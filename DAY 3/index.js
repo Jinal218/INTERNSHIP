@@ -45,3 +45,9 @@ $("h1").on("mouseover", function(){
 $("h1").on("mouseout",function(){
     $("h1").css("font-size", "40px");
 });
+
+//adding nd removing elements 
+$("h1").before("<button>New</button>");
+$("h1").after("<button>New</button>");
+$("h1").prepend("<button>New</button>");
+$("h1").append("<button>New</button>");

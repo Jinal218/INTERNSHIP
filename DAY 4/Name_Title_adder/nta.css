@@ -1,0 +1,76 @@
+#name{
+    width: 49%;
+    padding: 5px 5px 8px 8px;
+}
+
+#title{
+    width: 49%;
+    padding: 5px 5px 8px 8px;   
+}
+
+table {
+    margin: 20px 0;
+    width: 50%;
+    border-collapse: collapse;
+}
+
+table th{
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+}
+table td{
+    text-align: center;
+    font-size: 17px;
+}
+
+table,th,td {
+    border: 1px solid #000;
+}
+
+th#sr{
+    width: 50px;
+}
+
+th#na{
+    width: 210px;
+}
+
+th#tit{
+    width:210px;
+}
+
+th#act{
+    width: 250px;
+}
+
+button#subBtn{
+    background-color: rgb(29, 125, 29);
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    font-weight: bold;
+}
+
+button#delBtn{
+    background-color: rgb(237, 34, 34);
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button#edBtn{
+    background-color: rgb(0, 153, 255);
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button#updBtn{
+    background-color: rgb(13, 0, 255);
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button#canBtn{
+    border-radius: 5px;
+    font-weight: bold;
+}

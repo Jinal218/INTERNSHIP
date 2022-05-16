@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   
+</head>
+
+<body>
+
+    <div class="container">
+        <br>
+        <div class="row">
+            <div class="col-md-2 col-sm-6 col-6 p-2 ">
+                <input type="text" class="form-control" placeholder="Enter Name" id="txtName" />
+            </div>
+            <div class="col-md-2 col-sm-6 col-6 p-2 ">
+                <input type="text" class="form-control " placeholder="Enter Title" id="txtTitle" />
+            </div>
+            <div class="col-md-2 col-sm-6 col-12 p-2">
+                <input type="button" id="btnAdd" class="btn btn-primary para" value="Add New" />
+            </div>
+        </div>
+        <div class="row pt-3">
+            <div class="col-md-12 col-sm-12 col-12 p-2 ">
+                <table id="tblData" class="table table-bordered table-hover table-striped">
+                    <thead>
+                        <tr>
+                            <th>Sr No</th>
+                            <th>Name</th>
+                            <th>Title</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="test.js"> </script>
+
+</body>
+
+</html>
