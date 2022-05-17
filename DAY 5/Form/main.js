@@ -8,8 +8,8 @@ $(document).ready(function(){
         var half2 = comment.slice(20);
         if (file != "" && document != "" && comment != "") {
             $(".data-table tbody").append(`<tr data-document="${document}" data-comment="${comment}">
-                <td>${document}</td>
-                <td><span class="collapsed">
+                <td align='center'>${document}</td>
+                <td align='center'><span class="collapsed">
                     ${half}
                 <a href="javascript:void(0);"> READ MORE>></a>
                 </span>
@@ -18,7 +18,7 @@ $(document).ready(function(){
                 <a href="javascript:void(0);">READ LESS<<</a>
                 </span>
                 </td>
-                <td>
+                <td align='center'>
                     <a href="${file}" download><button class='btn-download btn btn-warning' >Download</button></a>
                     <button class='btn-delete btn btn-danger'>Delete</button>
                 </td>
@@ -35,7 +35,7 @@ $(document).ready(function(){
         }
     });
 
-    $("tbody").on("click", ".btn-delete", function () {
+    $("tbody").on("click", ".btn-delete", function () { 
         if (confirm("Are you sure want to delete?") == true) {
             $(this).closest('tr').remove();
         } else {

@@ -15,7 +15,7 @@ $("form").submit(function (e) {
 		</td>
 	</tr>`);
 
-    $("input[name='name']").val('');
+    $("input[name='name']").val(''); 
     $("input[name='title']").val('');
 });
 
