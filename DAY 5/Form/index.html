@@ -12,6 +12,7 @@
     <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
     
     <link rel="stylesheet" href="./style.css">
+    
 </head>
 
 <body>
@@ -39,26 +40,30 @@
                         <div class="col-lg-6">
                             <label>File *</label>
                             <div class="input-group">
-                                <input type="file" class="form-control" name="file"/>
+                                <input type="file" class="form-control" name="file">
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <label>Document Type *</label>
                             <select class="form-control" data-size="4" name="document" title="Nothing Selected">
+                                <option value="" >Choose doc type...</option>
                                 <option>Carrier Invoice</option>
                                 <option>Bill of loading</option>
                                 <option>ID Proof</option>
                                 <option>Address Proof</option>
                             </select>
                         </div>
+                    
                         <div class="col-lg-12">
-                            <label>Note *</label>
+                            <br>
+                            <label>Comment *</label>
                             <textarea id="basic-example" name="textarea" class="form-control" rows="3">
 
                             </textarea>
                         </div>
                         <div class="col-lg-6 mt-3">
                             <button type="submit" class="btn btn-success">Upload</button>
+                            <a id="link" href=""></a>
                         </div>
                     </div>
                 </div>
