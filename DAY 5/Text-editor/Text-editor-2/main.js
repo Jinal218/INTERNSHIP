@@ -4,6 +4,7 @@ $(document).ready(function(){
         var file = $("input[name='file']").val();
         var document = $("select[name='document']").val();
         var comment = tinyMCE.activeEditor.getBody().textContent;
+        // <iframe name="richTextField" style="width: 800px; height: 300px;"></iframe>
         var half = comment.slice(0,20);
         var half2 = comment.slice(20);
         if (file != "" && document != "" && comment != "") {
