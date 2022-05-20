@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+<head>
+  <base href="./">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta name="description" content="CoreUI - Open Source Bootstrap Admin Template">
+  <meta name="author" content="Łukasz Holeczek">
+  <meta name="keyword" content="Bootstrap,Admin,Template,Open,Source,jQuery,CSS,HTML,RWD,Dashboard">
+  
+  <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="assets/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="./temp1.css">
+  <link rel="stylesheet" href="css/vendors/simplebar.css">
+
+  <link href="./temp1.css" rel="stylesheet">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism.css">
+  <link href="css/examples.css" rel="stylesheet">
+
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-118965717-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-118965717-1');
+  </script>
+  <link href="vendors/@coreui/chartjs/css/coreui-chartjs.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="sidebar sidebar-dark sidebar-fixed" id="sidebar">
+    <div class="sidebar-brand d-none d-md-flex">
+      <svg class="sidebar-brand-full" width="118" height="46" alt="CoreUI Logo">
+        <use xlink:href="assets/brand/coreui.svg#full"></use>
+      </svg>
+      <svg class="sidebar-brand-narrow" width="46" height="46" alt="CoreUI Logo">
+        <use xlink:href="assets/brand/coreui.svg#signet"></use>
+      </svg>
+    </div>
+    <ul class="sidebar-nav" data-coreui="navigation" data-simplebar="">
+      <li class="nav-item"><a class="nav-link" href="index.html">
+          <svg class="nav-icon">
+            <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-speedometer"></use>
+          </svg> Dashboard<span class="badge badge-sm bg-info ms-auto">NEW</span></a></li>
+      <li class="nav-title">Theme</li>
+      <li class="nav-item"><a class="nav-link" href="colors.html">
+          <svg class="nav-icon">
+            <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-drop"></use>
+          </svg> Colors</a></li>
+      <li class="nav-item"><a class="nav-link" href="typography.html">
+          <svg class="nav-icon">
+            <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-pencil"></use>
+          </svg> Typography</a></li>
+      <li class="nav-title">Components</li>
+      <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
+          <svg class="nav-icon">
+            <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-puzzle"></use>
+          </svg> Base</a>
+        <ul class="nav-group-items">
+          <li class="nav-item"><a class="nav-link" href="base/accordion.html"><span class="nav-icon"></span>
+              Accordion</a></li>
+          <li class="nav-item"><a class="nav-link" href="base/breadcrumb.html"><span class="nav-icon"></span>
+              Breadcrumb</a></li>
+          <li class="nav-item"><a class="nav-link" href="base/cards.html"><span class="nav-icon"></span> Cards</a></li>
+          <li class="nav-item"><a class="nav-link" href="base/carousel.html"><span class="nav-icon"></span> Carousel</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="base/collapse.html"><span class="nav-icon"></span> Collapse</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="base/list-group.html"><span class="nav-icon"></span> List
+              group</a></li>
+          <li class="nav-item"><a class="nav-link" href="base/navs.html"><span class="nav-icon"></span> Navs</a></li>
+          <li class="nav-item"><a class="nav-link" href="base/pagination.html"><span class="nav-icon"></span>
+              Pagination</a></li>
+          <li class="nav-item"><a class="nav-link" href="base/popovers.html"><span class="nav-icon"></span> Popovers</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="base/progress.html"><span class="nav-icon"></span> Progress</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="base/scrollspy.html"><span class="nav-icon"></span>
+              Scrollspy</a></li>
+          <li class="nav-item"><a class="nav-link" href="base/spinners.html"><span class="nav-icon"></span> Spinners</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="base/tables.html"><span class="nav-icon"></span> Tables</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="base/tabs.html"><span class="nav-icon"></span> Tabs</a></li>
+          <li class="nav-item"><a class="nav-link" href="base/tooltips.html"><span class="nav-icon"></span> Tooltips</a>
+          </li>
+        </ul>
+      </li>
+      <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
+          <svg class="nav-icon">
+            <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-cursor"></use>
+          </svg> Buttons</a>
+        <ul class="nav-group-items">
+          <li class="nav-item"><a class="nav-link" href="buttons/buttons.html"><span class="nav-icon"></span>
+              Buttons</a></li>
+          <li class="nav-item"><a class="nav-link" href="buttons/button-group.html"><span class="nav-icon"></span>
+              Buttons Group</a></li>
+          <li class="nav-item"><a class="nav-link" href="buttons/dropdowns.html"><span class="nav-icon"></span>
+              Dropdowns</a></li>
+        </ul>
+      </li>
+      <li class="nav-item"><a class="nav-link" href="charts.html">
+          <svg class="nav-icon">
+            <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-chart-pie"></use>
+          </svg> Charts</a></li>
+      <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
+          <svg class="nav-icon">
+            <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-notes"></use>
+          </svg> Forms</a>
+        <ul class="nav-group-items">
+          <li class="nav-item"><a class="nav-link" href="forms/form-control.html"> Form Control</a></li>
+          <li class="nav-item"><a class="nav-link" href="forms/select.html"> Select</a></li>
+          <li class="nav-item"><a class="nav-link" href="forms/checks-radios.html"> Checks and radios</a></li>
+          <li class="nav-item"><a class="nav-link" href="forms/range.html"> Range</a></li>
+          <li class="nav-item"><a class="nav-link" href="forms/input-group.html"> Input group</a></li>
+          <li class="nav-item"><a class="nav-link" href="forms/floating-labels.html"> Floating labels</a></li>
+          <li class="nav-item"><a class="nav-link" href="forms/layout.html"> Layout</a></li>
+          <li class="nav-item"><a class="nav-link" href="forms/validation.html"> Validation</a></li>
+        </ul>
+      </li>
+      <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
+          <svg class="nav-icon">
+            <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-star"></use>
+          </svg> Icons</a>
+        <ul class="nav-group-items">
+          <li class="nav-item"><a class="nav-link" href="icons/coreui-icons-free.html"> CoreUI Icons<span
+                class="badge badge-sm bg-success ms-auto">Free</span></a></li>
+          <li class="nav-item"><a class="nav-link" href="icons/coreui-icons-brand.html"> CoreUI Icons - Brand</a></li>
+          <li class="nav-item"><a class="nav-link" href="icons/coreui-icons-flag.html"> CoreUI Icons - Flag</a></li>
+        </ul>
+      </li>
+      <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
+          <svg class="nav-icon">
+            <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-bell"></use>
+          </svg> Notifications</a>
+        <ul class="nav-group-items">
+          <li class="nav-item"><a class="nav-link" href="notifications/alerts.html"><span class="nav-icon"></span>
+              Alerts</a></li>
+          <li class="nav-item"><a class="nav-link" href="notifications/badge.html"><span class="nav-icon"></span>
+              Badge</a></li>
+          <li class="nav-item"><a class="nav-link" href="notifications/modals.html"><span class="nav-icon"></span>
+              Modals</a></li>
+          <li class="nav-item"><a class="nav-link" href="notifications/toasts.html"><span class="nav-icon"></span>
+              Toasts</a></li>
+        </ul>
+      </li>
+      <li class="nav-item"><a class="nav-link" href="widgets.html">
+          <svg class="nav-icon">
+            <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-calculator"></use>
+          </svg> Widgets<span class="badge badge-sm bg-info ms-auto">NEW</span></a></li>
+      <li class="nav-divider"></li>
+      <li class="nav-title">Extras</li>
+      <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
+          <svg class="nav-icon">
+            <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-star"></use>
+          </svg> Pages</a>
+        <ul class="nav-group-items">
+          <li class="nav-item"><a class="nav-link" href="login.html" target="_top">
+              <svg class="nav-icon">
+                <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-account-logout"></use>
+              </svg> Login</a></li>
+          <li class="nav-item"><a class="nav-link" href="register.html" target="_top">
+              <svg class="nav-icon">
+                <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-account-logout"></use>
+              </svg> Register</a></li>
+          <li class="nav-item"><a class="nav-link" href="404.html" target="_top">
+              <svg class="nav-icon">
+                <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-bug"></use>
+              </svg> Error 404</a></li>
+          <li class="nav-item"><a class="nav-link" href="500.html" target="_top">
+              <svg class="nav-icon">
+                <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-bug"></use>
+              </svg> Error 500</a></li>
+        </ul>
+      </li>
+      <li class="nav-item mt-auto"><a class="nav-link" href="docs.html">
+          <svg class="nav-icon">
+            <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-description"></use>
+          </svg> Docs</a></li>
+      <li class="nav-item"><a class="nav-link nav-link-danger" href="https://coreui.io/pro/" target="_top">
+          <svg class="nav-icon">
+            <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-layers"></use>
+          </svg> Try CoreUI
+          <div class="fw-semibold">PRO</div>
+        </a></li>
+    </ul>
+    <button class="sidebar-toggler" type="button" data-coreui-toggle="unfoldable"></button>
+  </div>
+  <div class="wrapper d-flex flex-column min-vh-100 bg-light">
+    <header class="header header-sticky mb-4">
+      <div class="container-fluid">
+        <button class="header-toggler px-md-0 me-md-3" type="button"
+          onclick="coreui.Sidebar.getInstance(document.querySelector('#sidebar')).toggle()">
+          <svg class="icon icon-lg">
+            <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-menu"></use>
+          </svg>
+        </button><a class="header-brand d-md-none" href="#">
+          <svg width="118" height="46" alt="CoreUI Logo">
+            <use xlink:href="assets/brand/coreui.svg#full"></use>
+          </svg></a>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+          </svg>
+        <ul class="header-nav d-none d-md-flex">
+            
+          <li class="nav-item"><a class="nav-link" href="#">Dashboard</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Users</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Settings</a></li>
+        </ul>
+        <ul class="header-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
+                <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/>
+              </svg></a></li>
+          <li class="nav-item"><a class="nav-link" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-card-checklist" viewBox="0 0 16 16">
+                <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
+                <path d="M7 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0zM7 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0z"/>
+              </svg></a></li>
+          <li class="nav-item"><a class="nav-link" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-open" viewBox="0 0 16 16">
+                <path d="M8.47 1.318a1 1 0 0 0-.94 0l-6 3.2A1 1 0 0 0 1 5.4v.817l5.75 3.45L8 8.917l1.25.75L15 6.217V5.4a1 1 0 0 0-.53-.882l-6-3.2ZM15 7.383l-4.778 2.867L15 13.117V7.383Zm-.035 6.88L8 10.082l-6.965 4.18A1 1 0 0 0 2 15h12a1 1 0 0 0 .965-.738ZM1 13.116l4.778-2.867L1 7.383v5.734ZM7.059.435a2 2 0 0 1 1.882 0l6 3.2A2 2 0 0 1 16 5.4V14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5.4a2 2 0 0 1 1.059-1.765l6-3.2Z"/>
+              </svg></a></li>
+        </ul>
+        <ul class="header-nav ms-3">
+
+          </a>
+          <div class="dropdown-menu dropdown-menu-end pt-0">
+            <div class="dropdown-header bg-light py-2">
+              <div class="fw-semibold">Account</div>
+            </div><a class="dropdown-item" href="#">
+              <svg class="icon me-2">
+                <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-bell"></use>
+              </svg> Updates<span class="badge badge-sm bg-info ms-2">42</span></a><a class="dropdown-item" href="#">
+              <svg class="icon me-2">
+                <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-envelope-open"></use>
+              </svg> Messages<span class="badge badge-sm bg-success ms-2">42</span></a><a class="dropdown-item"
+              href="#">
+              <svg class="icon me-2">
+                <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-task"></use>
+              </svg> Tasks<span class="badge badge-sm bg-danger ms-2">42</span></a><a class="dropdown-item" href="#">
+              <svg class="icon me-2">
+                <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-comment-square"></use>
+              </svg> Comments<span class="badge badge-sm bg-warning ms-2">42</span></a>
+            <div class="dropdown-header bg-light py-2">
+              <div class="fw-semibold">Settings</div>
+            </div><a class="dropdown-item" href="#">
+              <svg class="icon me-2">
+                <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-user"></use>
+              </svg> Profile</a><a class="dropdown-item" href="#">
+              <svg class="icon me-2">
+                <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-settings"></use>
+              </svg> Settings</a><a class="dropdown-item" href="#">
+              <svg class="icon me-2">
+                <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-credit-card"></use>
+              </svg> Payments<span class="badge badge-sm bg-secondary ms-2">42</span></a><a class="dropdown-item"
+              href="#">
+              <svg class="icon me-2">
+                <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-file"></use>
+              </svg> Projects<span class="badge badge-sm bg-primary ms-2">42</span></a>
+            <div class="dropdown-divider"></div><a class="dropdown-item" href="#">
+              <svg class="icon me-2">
+                <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-lock-locked"></use>
+              </svg> Lock Account</a><a class="dropdown-item" href="#">
+              <svg class="icon me-2">
+                <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-account-logout"></use>
+              </svg> Logout</a>
+          </div>
+          </li>
+        </ul>
+      </div>
+      <div class="header-divider"></div>
+      <div class="container-fluid">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb my-0 ms-2">
+            <li class="breadcrumb-item">
+              <span>Home</span>
+            </li>
+            <li class="breadcrumb-item active"><span>Dashboard</span></li>
+          </ol>
+        </nav>
+      </div>
+    </header>
+    <div class="body flex-grow-1 px-3">
+
+      <body class="container-lg-2">
+        <div class="row">
+          <div class="col-sm-6 col-lg-3">
+            <div class="card mb-4 text-white bg-primary">
+              <div class="card-body pb-0 d-flex justify-content-between align-items-start">
+                <div>
+                  <div class="fs-4 fw-semibold">9,823<span class="fs-6 fw-normal">
+                      <svg class="icon">
+                        <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-arrow-bottom"></use>
+                      </svg></span></div>
+                  <div>Members online</div>
+                  <div>
+                    <img src="./download.png" alt="" height="55px" width="265px">
+                  </div>
+                </div>
+                <div class="dropdown">
+                  <button class="btn btn-transparent text-white p-0" type="button" data-coreui-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    <svg class="icon">
+                    </svg>
+                  </button>
+                  <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">Action</a><a
+                      class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else
+                      here</a></div>
+                </div>
+              </div>
+              <div class="c-chart-wrapper mt-3 mx-3" style="height:70px;">
+                <canvas class="chart" id="card-chart1" height="70"></canvas>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-3">
+            <div class="card mb-4 text-white bg-info">
+              <div class="card-body pb-0 d-flex justify-content-between align-items-start">
+                <div>
+                  <div class="fs-4 fw-semibold">9,823<span class="fs-6 fw-normal">
+                      </div>
+                  <div>Members online</div>
+                  <div>
+                    <img src="./download (1).png" alt="" height="55px" width="265px">
+                  </div>
+                </div>
+                
+                <div class="dropdown">
+                  <button class="btn btn-transparent text-white p-0" type="button" data-coreui-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    <svg class="icon">
+                      <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-options"></use>
+                    </svg>
+                  </button>
+                  <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">Action</a><a
+                      class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else
+                      here</a></div>
+                </div>
+              </div>
+              <div class="c-chart-wrapper mt-3 mx-3" style="height:70px;">
+                <canvas class="chart" id="card-chart2" height="70"></canvas>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-3">
+            <div class="card mb-4 text-white bg-warning">
+              <div class="card-body pb-0 d-flex justify-content-between align-items-start">
+                <div>
+                  <div class="fs-4 fw-semibold">9,823<span class="fs-6 fw-normal">
+                      <svg class="icon">
+                        <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-arrow-top"></use>
+                      </svg></span></div>
+                  <div>members online</div>
+                  <div>
+                    <img src="./download (2).png" alt="" height="55px" width="265px">
+                  </div>
+                </div>
+                <div class="dropdown">
+                  <button class="btn btn-transparent text-white p-0" type="button" data-coreui-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    <svg class="icon">
+                      <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-options"></use>
+                    </svg>
+                  </button>
+                  <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">Action</a><a
+                      class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else
+                      here</a></div>
+                </div>
+              </div>
+              <div class="c-chart-wrapper mt-3" style="height:70px;">
+                <canvas class="chart" id="card-chart3" height="70"></canvas>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-3">
+            <div class="card mb-4 text-white bg-danger">
+              <div class="card-body pb-0 d-flex justify-content-between align-items-start">
+                <div>
+                  <div class="fs-4 fw-semibold">9,823<span class="fs-6 fw-normal">
+                      <svg class="icon">
+                        <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-arrow-bottom"></use>
+                      </svg></span></div>
+                  <div>Members online</div>
+                  <div>
+                    <img src="./download (3).png" alt="" height="55px" width="265px">
+                  </div>
+                </div>
+                <div class="dropdown">
+                  <button class="btn btn-transparent text-white p-0" type="button" data-coreui-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    <svg class="icon">
+                      <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-options"></use>
+                    </svg>
+                  </button>
+                  <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">Action</a><a
+                      class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else
+                      here</a></div>
+                </div>
+              </div>
+              <div class="c-chart-wrapper mt-3 mx-3" style="height:70px;">
+                <canvas class="chart" id="card-chart4" height="70"></canvas>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="card mb-4">
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <div>
+                <h4 class="card-title mb-0">Traffic</h4>
+                <div class="small text-medium-emphasis">November 2017</div>
+              </div>
+              <div class="btn-toolbar d-none d-md-block" role="toolbar" aria-label="Toolbar with buttons">
+                <div class="btn-group btn-group-toggle mx-3" data-coreui-toggle="buttons">
+                  <input class="btn-check" id="option1" type="radio" name="options" autocomplete="off">
+                  <label class="btn btn-outline-secondary"> Day</label>
+                  <input class="btn-check" id="option2" type="radio" name="options" autocomplete="off" checked="">
+                  <label class="btn btn-outline-secondary active"> Month</label>
+                  <input class="btn-check" id="option3" type="radio" name="options" autocomplete="off">
+                  <label class="btn btn-outline-secondary"> Year</label>
+                </div>
+                <button class="btn btn-info" type="button">
+                  <img src="./45162.png" height="18px" width="25px">
+                </button>
+              </div>
+            </div>
+          <div>
+            <img src="./graph.png" alt="" height="400px" width="1180px">
+          </div>
+            <!-- <div class="c-chart-wrapper" style="height:300px;margin-top:40px;">
+              <canvas class="chart" id="main-chart" height="300"></canvas>
+            </div> -->
+          </div>
+          <div class="card-footer">
+            <div class="row row-cols-1 row-cols-md-5 text-center">
+              <div class="col mb-sm-2 mb-0">
+                <div class="text-medium-emphasis">Visits</div>
+                <div class="fw-semibold">29.703 Users (40%)</div>
+                <div class="progress progress-thin mt-2">
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 40%" aria-valuenow="40"
+                    aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="col mb-sm-2 mb-0">
+                <div class="text-medium-emphasis">Unique</div>
+                <div class="fw-semibold">24.093 Users (20%)</div>
+                <div class="progress progress-thin mt-2">
+                  <div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="20"
+                    aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="col mb-sm-2 mb-0">
+                <div class="text-medium-emphasis">Pageviews</div>
+                <div class="fw-semibold">78.706 Views (60%)</div>
+                <div class="progress progress-thin mt-2">
+                  <div class="progress-bar bg-warning" role="progressbar" style="width: 60%" aria-valuenow="60"
+                    aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="col mb-sm-2 mb-0">
+                <div class="text-medium-emphasis">New Users</div>
+                <div class="fw-semibold">22.123 Users (80%)</div>
+                <div class="progress progress-thin mt-2">
+                  <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="80"
+                    aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="col mb-sm-2 mb-0">
+                <div class="text-medium-emphasis">Bounce Rate</div>
+                <div class="fw-semibold">40.15%</div>
+                <div class="progress progress-thin mt-2">
+                  <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-5 col-lg-4">
+            <div class="card mb-4" style="--cui-card-cap-bg: #3b5998">
+              <div class="card-header position-relative d-flex justify-content-center align-items-center">
+                <img src="https://logos-world.net/wp-content/uploads/2020/04/Facebook-Logo-700x394.png" height="95px" width="150px" alt="">
+                <div class="chart-wrapper position-absolute top-0 start-0 w-100 h-100">
+                  <canvas id="social-box-chart-1" height="90"></canvas>
+                </div>
+              </div>
+              <div class="card-body row text-center">
+                <div class="col">
+                  <div class="fs-5 fw-semibold">89k</div>
+                  <div class="text-uppercase text-medium-emphasis small">friends</div>
+                </div>
+                <div class="vr"></div>
+                <div class="col">
+                  <div class="fs-5 fw-semibold">459</div>
+                  <div class="text-uppercase text-medium-emphasis small">feeds</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-5 col-lg-4">
+            <div class="card mb-4" style="--cui-card-cap-bg: #00aced">
+              <div class="card-header position-relative d-flex justify-content-center align-items-center">
+                <img src="https://logos-world.net/wp-content/uploads/2020/04/Twitter-Logo-2010-2012.png" height="90px" width="150px" alt="">
+                <div class="chart-wrapper position-absolute top-0 start-0 w-100 h-100">
+                  <canvas id="social-box-chart-2" height="90"></canvas>
+                </div>
+              </div>
+              <div class="card-body row text-center">
+                <div class="col">
+                  <div class="fs-5 fw-semibold">973k</div>
+                  <div class="text-uppercase text-medium-emphasis small">followers</div>
+                </div>
+                <div class="vr"></div>
+                <div class="col">
+                  <div class="fs-5 fw-semibold">1.792</div>
+                  <div class="text-uppercase text-medium-emphasis small">tweets</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-5 col-lg-4">
+            <div class="card mb-4" style="--cui-card-cap-bg: #4875b4">
+              <div class="card-header position-relative d-flex justify-content-center align-items-center">
+                <img src="./768px-LinkedIn_logo_initials.png" height="90px" width="110px">
+
+                <div class="chart-wrapper position-absolute top-0 start-0 w-100 h-100">
+                  <canvas id="social-box-chart-3" height="90"></canvas>
+                </div>
+              </div>
+              <div class="card-body row text-center">
+                <div class="col">
+                  <div class="fs-5 fw-semibold">500+</div>
+                  <div class="text-uppercase text-medium-emphasis small">contacts</div>
+                </div>
+                <div class="vr"></div>
+                <div class="col">
+                  <div class="fs-5 fw-semibold">292</div>
+                  <div class="text-uppercase text-medium-emphasis small">feeds</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </body>
+
+</html>
