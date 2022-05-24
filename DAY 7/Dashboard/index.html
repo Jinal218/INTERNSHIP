@@ -7,80 +7,42 @@
   <base href="./">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-  <meta name="description" content="CoreUI - Open Source Bootstrap Admin Template">
-  <meta name="author" content="Łukasz Holeczek">
-  <meta name="keyword" content="Bootstrap,Admin,Template,Open,Source,jQuery,CSS,HTML,RWD,Dashboard">
   
-  <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-  <link rel="manifest" href="assets/favicon/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
-
   <link rel="stylesheet" href="./temp1.css">
-  <link rel="stylesheet" href="css/vendors/simplebar.css">
-
-  <link href="./temp1.css" rel="stylesheet">
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism.css">
-  <link href="css/examples.css" rel="stylesheet">
 
-  <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-118965717-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'UA-118965717-1');
-  </script>
-  <link href="vendors/@coreui/chartjs/css/coreui-chartjs.css" rel="stylesheet">
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-118965717-1"></script>  
 </head>
 
 <body>
   <div class="sidebar sidebar-dark sidebar-fixed" id="sidebar">
     <div class="sidebar-brand d-none d-md-flex">
-      <svg class="sidebar-brand-full" width="118" height="46" alt="CoreUI Logo">
-        <use xlink:href="assets/brand/coreui.svg#full"></use>
-      </svg>
-      <svg class="sidebar-brand-narrow" width="46" height="46" alt="CoreUI Logo">
-        <use xlink:href="assets/brand/coreui.svg#signet"></use>
-      </svg>
     </div>
     <ul class="sidebar-nav" data-coreui="navigation" data-simplebar="">
       <li class="nav-item"><a class="nav-link" href="index.html">
-          <svg class="nav-icon">
-            <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-speedometer"></use>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-speedometer"
+            viewBox="0 0 16 16">
+            <path
+              d="M8 2a.5.5 0 0 1 .5.5V4a.5.5 0 0 1-1 0V2.5A.5.5 0 0 1 8 2zM3.732 3.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707zM2 8a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 8zm9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5zm.754-4.246a.389.389 0 0 0-.527-.02L7.547 7.31A.91.91 0 1 0 8.85 8.569l3.434-4.297a.389.389 0 0 0-.029-.518z" />
+            <path fill-rule="evenodd"
+              d="M6.664 15.889A8 8 0 1 1 9.336.11a8 8 0 0 1-2.672 15.78zm-4.665-4.283A11.945 11.945 0 0 1 8 10c2.186 0 4.236.585 6.001 1.606a7 7 0 1 0-12.002 0z" />
           </svg> Dashboard<span class="badge badge-sm bg-info ms-auto">NEW</span></a></li>
       <li class="nav-title">Theme</li>
       <li class="nav-item"><a class="nav-link" href="colors.html">
-          <svg class="nav-icon">
-            <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-drop"></use>
-          </svg> Colors</a></li>
+        <svg class="nav-icon">
+          <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-cursor"></use>
+        </svg> Colors</a></li>
       <li class="nav-item"><a class="nav-link" href="typography.html">
-          <svg class="nav-icon">
-            <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-pencil"></use>
-          </svg> Typography</a></li>
+        <svg class="nav-icon">
+          <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-cursor"></use>
+        </svg>Typography</a></li>
       <li class="nav-title">Components</li>
       <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
-          <svg class="nav-icon">
-            <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-puzzle"></use>
-          </svg> Base</a>
+        <svg class="nav-icon">
+          <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-cursor"></use>
+        </svg>Base</a>
         <ul class="nav-group-items">
           <li class="nav-item"><a class="nav-link" href="base/accordion.html"><span class="nav-icon"></span>
               Accordion</a></li>
@@ -125,9 +87,9 @@
         </ul>
       </li>
       <li class="nav-item"><a class="nav-link" href="charts.html">
-          <svg class="nav-icon">
-            <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-chart-pie"></use>
-          </svg> Charts</a></li>
+        <svg class="nav-icon">
+          <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-cursor"></use>
+        </svg>Charts</a></li>
       <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
           <svg class="nav-icon">
             <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-notes"></use>
@@ -144,9 +106,9 @@
         </ul>
       </li>
       <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
-          <svg class="nav-icon">
-            <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-star"></use>
-          </svg> Icons</a>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+          <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+        </svg> Icons</a>
         <ul class="nav-group-items">
           <li class="nav-item"><a class="nav-link" href="icons/coreui-icons-free.html"> CoreUI Icons<span
                 class="badge badge-sm bg-success ms-auto">Free</span></a></li>
@@ -223,28 +185,37 @@
           <svg width="118" height="46" alt="CoreUI Logo">
             <use xlink:href="assets/brand/coreui.svg#full"></use>
           </svg></a>
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-          </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list"
+          viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+        </svg>
         <ul class="header-nav d-none d-md-flex">
-            
+
           <li class="nav-item"><a class="nav-link" href="#">Dashboard</a></li>
           <li class="nav-item"><a class="nav-link" href="#">Users</a></li>
           <li class="nav-item"><a class="nav-link" href="#">Settings</a></li>
         </ul>
         <ul class="header-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="#">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
-                <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell"
+                viewBox="0 0 16 16">
+                <path
+                  d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z" />
               </svg></a></li>
           <li class="nav-item"><a class="nav-link" href="#">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-card-checklist" viewBox="0 0 16 16">
-                <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
-                <path d="M7 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0zM7 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0z"/>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-card-checklist" viewBox="0 0 16 16">
+                <path
+                  d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z" />
+                <path
+                  d="M7 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0zM7 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0z" />
               </svg></a></li>
           <li class="nav-item"><a class="nav-link" href="#">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-open" viewBox="0 0 16 16">
-                <path d="M8.47 1.318a1 1 0 0 0-.94 0l-6 3.2A1 1 0 0 0 1 5.4v.817l5.75 3.45L8 8.917l1.25.75L15 6.217V5.4a1 1 0 0 0-.53-.882l-6-3.2ZM15 7.383l-4.778 2.867L15 13.117V7.383Zm-.035 6.88L8 10.082l-6.965 4.18A1 1 0 0 0 2 15h12a1 1 0 0 0 .965-.738ZM1 13.116l4.778-2.867L1 7.383v5.734ZM7.059.435a2 2 0 0 1 1.882 0l6 3.2A2 2 0 0 1 16 5.4V14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5.4a2 2 0 0 1 1.059-1.765l6-3.2Z"/>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-envelope-open" viewBox="0 0 16 16">
+                <path
+                  d="M8.47 1.318a1 1 0 0 0-.94 0l-6 3.2A1 1 0 0 0 1 5.4v.817l5.75 3.45L8 8.917l1.25.75L15 6.217V5.4a1 1 0 0 0-.53-.882l-6-3.2ZM15 7.383l-4.778 2.867L15 13.117V7.383Zm-.035 6.88L8 10.082l-6.965 4.18A1 1 0 0 0 2 15h12a1 1 0 0 0 .965-.738ZM1 13.116l4.778-2.867L1 7.383v5.734ZM7.059.435a2 2 0 0 1 1.882 0l6 3.2A2 2 0 0 1 16 5.4V14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5.4a2 2 0 0 1 1.059-1.765l6-3.2Z" />
               </svg></a></li>
         </ul>
         <ul class="header-nav ms-3">
@@ -323,35 +294,7 @@
                     <img src="./download.png" alt="" height="55px" width="265px">
                   </div>
                 </div>
-                <div class="dropdown">
-                  <button class="btn btn-transparent text-white p-0" type="button" data-coreui-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    <svg class="icon">
-                    </svg>
-                  </button>
-                  <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">Action</a><a
-                      class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else
-                      here</a></div>
-                </div>
-              </div>
-              <div class="c-chart-wrapper mt-3 mx-3" style="height:70px;">
-                <canvas class="chart" id="card-chart1" height="70"></canvas>
-              </div>
-            </div>
-          </div>
 
-          <div class="col-sm-6 col-lg-3">
-            <div class="card mb-4 text-white bg-info">
-              <div class="card-body pb-0 d-flex justify-content-between align-items-start">
-                <div>
-                  <div class="fs-4 fw-semibold">9,823<span class="fs-6 fw-normal">
-                      </div>
-                  <div>Members online</div>
-                  <div>
-                    <img src="./download (1).png" alt="" height="55px" width="265px">
-                  </div>
-                </div>
-                
                 <div class="dropdown">
                   <button class="btn btn-transparent text-white p-0" type="button" data-coreui-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">
@@ -364,9 +307,39 @@
                       here</a></div>
                 </div>
               </div>
-              <div class="c-chart-wrapper mt-3 mx-3" style="height:70px;">
-                <canvas class="chart" id="card-chart2" height="70"></canvas>
+              <!-- <div class="c-chart-wrapper mt-3 mx-3" style="height:70px;">
+                <canvas class="chart" id="card-chart1" height="70"></canvas>
+              </div> -->
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-3">
+            <div class="card mb-4 text-white bg-info">
+              <div class="card-body pb-0 d-flex justify-content-between align-items-start">
+                <div>
+                  <div class="fs-4 fw-semibold">9,823<span class="fs-6 fw-normal">
+                  </div>
+                  <div>Members online</div>
+                  <div>
+                    <img src="./download (1).png" alt="" height="55px" width="265px">
+                  </div>
+                </div>
+
+                <div class="dropdown">
+                  <button class="btn btn-transparent text-white p-0" type="button" data-coreui-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    <svg class="icon">
+                      <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-options"></use>
+                    </svg>
+                  </button>
+                  <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">Action</a><a
+                      class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else
+                      here</a></div>
+                </div>
               </div>
+              <!-- <div class="c-chart-wrapper mt-3 mx-3" style="height:70px;">
+                <canvas class="chart" id="card-chart2" height="70"></canvas>
+              </div> -->
             </div>
           </div>
 
@@ -395,9 +368,9 @@
                       here</a></div>
                 </div>
               </div>
-              <div class="c-chart-wrapper mt-3" style="height:70px;">
+              <!-- <div class="c-chart-wrapper mt-3" style="height:70px;">
                 <canvas class="chart" id="card-chart3" height="70"></canvas>
-              </div>
+              </div> -->
             </div>
           </div>
 
@@ -426,9 +399,9 @@
                       here</a></div>
                 </div>
               </div>
-              <div class="c-chart-wrapper mt-3 mx-3" style="height:70px;">
+              <!-- <div class="c-chart-wrapper mt-3 mx-3" style="height:70px;">
                 <canvas class="chart" id="card-chart4" height="70"></canvas>
-              </div>
+              </div> -->
             </div>
           </div>
 
@@ -455,9 +428,9 @@
                 </button>
               </div>
             </div>
-          <div>
-            <img src="./graph.png" alt="" height="400px" width="1180px">
-          </div>
+            <div>
+              <img src="./graph.png" alt="" height="400px" width="1180px">
+            </div>
             <!-- <div class="c-chart-wrapper" style="height:300px;margin-top:40px;">
               <canvas class="chart" id="main-chart" height="300"></canvas>
             </div> -->
@@ -512,7 +485,7 @@
           <div class="col-sm-5 col-lg-4">
             <div class="card mb-4" style="--cui-card-cap-bg: #3b5998">
               <div class="card-header position-relative d-flex justify-content-center align-items-center">
-                <img src="https://logos-world.net/wp-content/uploads/2020/04/Facebook-Logo-700x394.png" height="95px" width="150px" alt="">
+                <img src="https://www.freepnglogos.com/uploads/facebook-logo-13.png" height="90px" width="130px" alt="">
                 <div class="chart-wrapper position-absolute top-0 start-0 w-100 h-100">
                   <canvas id="social-box-chart-1" height="90"></canvas>
                 </div>
@@ -534,7 +507,9 @@
           <div class="col-sm-5 col-lg-4">
             <div class="card mb-4" style="--cui-card-cap-bg: #00aced">
               <div class="card-header position-relative d-flex justify-content-center align-items-center">
-                <img src="https://logos-world.net/wp-content/uploads/2020/04/Twitter-Logo-2010-2012.png" height="90px" width="150px" alt="">
+                <img
+                  src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/twitter_circle-512.png"
+                  height="90px" width="150px" alt="">
                 <div class="chart-wrapper position-absolute top-0 start-0 w-100 h-100">
                   <canvas id="social-box-chart-2" height="90"></canvas>
                 </div>
